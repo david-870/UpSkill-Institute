@@ -26,7 +26,7 @@ export const RHYTHM = [
 
 export const STEPS = [
   { n: '01', title: 'Register on the website', text: 'Create your applicant profile and tell us a bit about your goals.' },
-  { n: '02', title: 'Choose one career track', text: 'Ethical Hacking, AI & Automation, Digital Marketing, or Virtual Assistant & Business Support.' },
+  { n: '02', title: 'Choose one career track', text: 'Ethical Hacking, AI & Automation, Digital Marketing, or AI-Powered web development & Vibe Coding.' },
   { n: '03', title: 'Join the free Telegram orientation', text: 'Seven days inside the community — meet tutors, see the curriculum, ask questions.', tag: 'FREE 7-DAY ORIENTATION' },
   { n: '04', title: 'Decide, then pay your track\'s fee', text: 'No pressure before day 7. Enroll only once you\'re sure — fees range from ₦30,000 to ₦50,000.' },
   { n: '05', title: 'Get placed in your class', text: 'Private group, capped at 100 students, matched to your chosen course.' },
@@ -35,11 +35,12 @@ export const STEPS = [
 ]
 
 export const COURSES = [
-  { title: 'CyberSecurity & Ethical Hacking', price: '₦50,000', color: '#FF5470', desc: 'Learn how to prevent, detect, and investigate cyber attacks using real-world tools and techniques. Learn how to identify security vulnerabilities, protect organizations from hackers, and recover digital evidence after breaches. These are high-demand, high-income skills sought after by businesses, governments, and security firms worldwide.' },
-  { title: 'AI & AI Automation / CRM', price: '₦40,000', color: '#8A80FF', desc: 'AI & AI Automation/CRM helps you use AI to automate daily tasks, save time, and help businesses work faster. Learn how to set up smart workflows, manage customers, and improve sales with AI and CRM tools. It is a practical, high-income skill that companies are actively looking for' },
-  { title: 'Digital Marketing & Social Media', price: '₦30,000', color: '#FFB627', desc: 'Digital & Content Marketing teaches you how to grow businesses online using social media, content, and paid ads. Learn how to attract customers, increase sales, and build strong brands. It is a valuable skill for freelancers, business owners, and anyone looking to earn online.' },
-  { title: 'Virtual Assistant & Business Support', price: '₦30,000', color: '#33D6A6', desc: 'Become the remote support person businesses can\'t run without — no coding, no design skills, no laptop required to start. You\'ll master inbox and calendar management, customer service, CRM and data entry, and everyday e-commerce and social support tasks. Learn the exact tools clients already expect you to know — Google Workspace, Notion, WhatsApp Business, and Canva basics. It\'s the lowest-barrier track we offer, built for absolute beginners who want to start earning fast. Finish in 8 weeks with real, client-ready skills — and your first paying gig within reach.' },
+  { title: 'AI Powered Web Development & Vibe Coding', price: '₦50,000', color: '#33D6A6', desc: 'Learn how to use AI-assisted development to build and deploy modern web applications and websites with minimal coding effort while understanding the fundamentals behind what you\'re building.' },
+  { title: 'CyberSecurity & Ethical Hacking', price: '₦45,000', color: '#FF5470', desc: 'Learn how to prevent, detect, and investigate cyber attacks using real-world tools and techniques. Learn how to identify security vulnerabilities, protect organizations from hackers, and recover digital evidence after breaches. These are high-demand, high-income skills sought after by businesses, governments, and security firms worldwide.' },
+  { title: 'AI & AI Automation / CRM', price: '₦35,000', color: '#8A80FF', desc: 'AI & AI Automation/CRM helps you use AI to automate daily tasks, save time, and help businesses work faster. Learn how to set up smart workflows, manage customers, and improve sales with AI and CRM tools. It is a practical, high-income skill that companies are actively looking for' },
+  { title: 'Digital Marketing & Social Media', price: '₦30,000', color: '#FFB627', desc: 'Digital & Content Marketing teaches you how to grow businesses online using social media, content, and paid ads. Learn how to attract customers, increase sales, and build strong brands. It is a valuable skill for freelancers, business owners, and anyone looking to earn online.' }
 ]
+  
 
 export const PODIUM = [
   { place: '2nd place', amount: 300000, note: 'Second-best project across the whole batch.', cls: 'place-2' },

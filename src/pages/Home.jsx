@@ -15,7 +15,7 @@ export default function Home() {
           </div>
           <h1>Learn a skill live.<br />Get <span className="accent">paid to win</span> every week.</h1>
           <p className="lede">
-            Four in-demand tracks — Ethical Hacking, AI & Automation, Digital Marketing, Virtual Assistant and Business Support.
+            Four in-demand tracks — Ethical Hacking, AI & Automation, Digital Marketing, AI-Powered web development & Vibe Coding.
             Top your class on Sunday and take home ₦25,000 in cash. Finish 1st and win ₦500,000.
             Try the first week free before you spend a naira.
           </p>
@@ -107,7 +107,7 @@ export default function Home() {
             <div className="amount"><CountUp target={25000} prefix="₦" /></div>
             <p>Paid to the highest-performing student in each of the four tracks, based on that week's quiz and leaderboard standing.</p>
             <div className="prize-extra">
-              {['4 winners weekly', '1 in ≤120 odds', 'Announced live'].map(c => <span key={c} className="chip">{c}</span>)}
+              {['4 winners weekly', 'Announced live'].map(c => <span key={c} className="chip">{c}</span>)}
             </div>
           </Reveal>
           <div className="podium-grid">
