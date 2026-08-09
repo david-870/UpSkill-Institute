@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Header, Footer, SectionHead } from '../components/Layout'
 import { CountUp, Reveal } from '../hooks'
-import { TICKER, STATS, RHYTHM, STEPS, COURSES, PODIUM } from '../data'
+import { TICKER, STATS, RHYTHM, COURSES, PODIUM } from '../data'
 
 export default function Home() {
   return (
@@ -47,25 +47,6 @@ export default function Home() {
               ))}
             </div>
           </Reveal>
-        </div>
-      </section>
-
-      <section className="pad" id="journey">
-        <div className="wrap">
-          <SectionHead eyebrow="Student journey" title="From sign-up to certificate, in one track"
-            text="Every applicant moves through the same seven checkpoints — so you always know exactly what's next." />
-          <div className="journey">
-            {STEPS.map(s => (
-              <Reveal key={s.n} className="step">
-                <div className="num">{s.n}</div>
-                <div>
-                  <h3>{s.title}</h3>
-                  <p>{s.text}</p>
-                  {s.tag && <span className="tag">{s.tag}</span>}
-                </div>
-              </Reveal>
-            ))}
-          </div>
         </div>
       </section>
 
