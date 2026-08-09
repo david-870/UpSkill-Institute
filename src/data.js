@@ -1,4 +1,4 @@
-export const TELEGRAM_URL = 'https://t.me/upskilltechinstitute'
+export const TELEGRAM_URL = 'https://t.me/+Mgu0XPPV44FkN2Fk'
 
 export const TICKER = [
   '₦25,000 CASH TO THE TOP STUDENT — EVERY SINGLE SUNDAY',
