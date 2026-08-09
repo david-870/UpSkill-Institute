@@ -24,6 +24,15 @@ export const RHYTHM = [
   { day: 'Sun', what: 'Quiz + ₦25k', type: 'quiz' },
 ]
 
+export const STEPS = [
+  { n: '01', title: 'Register on the website', text: 'Create your applicant profile and tell us a bit about your goals.' },
+  { n: '02', title: 'Choose one career track', text: 'Ethical Hacking, AI & Automation, Digital Marketing, or AI-Powered web development &' },
+  { n: '03', title: 'Join the free Telegram orientation', text: 'Seven days inside the community — meet tutors, see the curriculum, ask questions.', tag: 'FREE 7-DAY ORIENTATION' },
+  { n: '04', title: 'Decide, then pay your track\'s fee', text: 'No pressure before day 7. Enroll only once you\'re sure — fees range from ₦30,000 to ₦50,000.' },
+  { n: '05', title: 'Get placed in your class', text: 'Private group, capped at 100 students, matched to your chosen course.' },
+  { n: '06', title: 'Learn the weekly rhythm', text: 'Live teaching Mon, Tue, Thu–Fri — Wednesday off. Self-study Saturday, quiz & leaderboard Sunday.' },
+  { n: '07', title: 'Final project, certificate, career support', text: 'Finish with a real project, a final exam, and help landing what\'s next.' },
+]
 
 export const COURSES = [
   { title: 'AI Powered Web Development & Vibe Coding', price: '₦50,000', color: '#33D6A6', desc: 'Learn how to use AI-assisted development to build and deploy modern web applications and websites with minimal coding effort while understanding the fundamentals behind what you\'re building.' },
