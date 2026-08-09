@@ -15,7 +15,7 @@ export default function Home() {
           </div>
           <h1>Learn a skill live.<br />Get <span className="accent">paid to win</span> every week.</h1>
           <p className="lede">
-            Four in-demand tracks — Ethical Hacking, AI & Automation, Digital Marketing, Business & Sales.
+            Four in-demand tracks — Ethical Hacking, AI & Automation, Digital Marketing, Virtual Assistant and Business Support.
             Top your class on Sunday and take home ₦25,000 in cash. Finish 1st and win ₦500,000.
             Try the first week free before you spend a naira.
           </p>
@@ -36,7 +36,7 @@ export default function Home() {
           <Reveal className="rhythm">
             <div className="rhythm-head">
               <span className="label">Weekly rhythm</span>
-              <span className="time mono">8:00 PM – 10:00 PM WAT</span>
+              <span className="time mono">9:00 PM – 10:00 PM WAT</span>
             </div>
             <div className="rhythm-grid">
               {RHYTHM.map(d => (
@@ -71,8 +71,8 @@ export default function Home() {
 
       <section className="pad" id="courses">
         <div className="wrap">
-          <SectionHead eyebrow="Career tracks" title="Four tracks. One live classroom each."
-            text="Every course caps at 120 students so tutors can actually know your name and review your work." />
+          <SectionHead eyebrow="Career tracks" title="Four Lucrative Skills. One live classroom each."
+            text="Every course caps at 100 students so tutors can actually know your name and review your work." />
           <div className="course-grid">
             {COURSES.map(c => (
               <Reveal key={c.title} className="course-card">
@@ -84,7 +84,7 @@ export default function Home() {
                 </div>
                 <h3>{c.title}</h3>
                 <p>{c.desc}</p>
-                <div className="meta"><span>MAX 120</span><span>MON, TUE, THU, FRI · 8–10PM</span></div>
+                <div className="meta"><span>MAX 100</span><span>MON, TUE, THU, FRI · 9PM–10PM</span></div>
               </Reveal>
             ))}
           </div>

@@ -56,7 +56,7 @@ export default function Register() {
               <ul className="register-perks">
                 <li>7 days free — no payment upfront</li>
                 <li>Meet tutors & see the full curriculum</li>
-                <li>Only 120 seats per course</li>
+                <li>Only 100 seats per course</li>
               </ul>
             </div>
 
@@ -82,7 +82,7 @@ export default function Register() {
               <label>
                 Career track
                 <select value={form.track} onChange={set('track')}>
-                  <option value="">Select a track</option>
+                  <option value="">Select a Skill</option>
                   {TRACKS.map(t => <option key={t} value={t}>{t}</option>)}
                 </select>
                 {errors.track && <span className="field-error">{errors.track}</span>}

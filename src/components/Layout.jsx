@@ -1,12 +1,14 @@
-import { Link, NavLink } from 'react-router-dom'
-import { Reveal } from '../hooks'
+import { Link, NavLink } from "react-router-dom";
+import { Reveal } from "../hooks";
+import upskill_digitalskill_logo from "../assets/upskill_digitalskill_logo.jpeg";
 
 export function Logo() {
   return (
     <Link to="/" className="logo">
-      <span className="mark">US</span> UpSkill Tech Institute
+      {/* <span className="mark">US</span> UpSkill Tech Institute */}
+      <img src={upskill_digitalskill_logo} alt="UpSkill Tech Institute" />
     </Link>
-  )
+  );
 }
 
 export function Header({ ticker }) {
@@ -14,7 +16,7 @@ export function Header({ ticker }) {
     <>
       {ticker && <Ticker items={ticker} />}
       {ticker && <div className="ticker-spacer" aria-hidden="true" />}
-      <div className={`site-top${ticker ? ' with-ticker' : ''}`}>
+      <div className={`site-top${ticker ? " with-ticker" : ""}`}>
         <header>
           <nav>
             <Logo />
@@ -24,12 +26,14 @@ export function Header({ ticker }) {
               <a href="/#rewards">Rewards</a>
               <a href="/#apply">Apply</a>
             </div>
-            <NavLink to="/register" className="nav-cta">Join free orientation</NavLink>
+            <NavLink to="/register" className="nav-cta">
+              Join free orientation
+            </NavLink>
           </nav>
         </header>
       </div>
     </>
-  )
+  );
 }
 
 export function Ticker({ items }) {
@@ -38,7 +42,7 @@ export function Ticker({ items }) {
       <span>{t}</span>
       <span className="sep">●</span>
     </span>
-  ))
+  ));
   return (
     <div className="ticker" aria-hidden="true">
       <div className="ticker-track">
@@ -46,18 +50,24 @@ export function Ticker({ items }) {
         <div className="grp">{line}</div>
       </div>
     </div>
-  )
+  );
 }
 
 export function Footer() {
   return (
     <footer>
       <div className="wrap foot-row">
-        <Logo />
-        <span className="mono">© 2026 UpSkill Tech Institute · Fully online · 4 tracks · 1 leaderboard</span>
+        <div className="footImg">
+          <Logo />
+        </div>
+
+        <span className="mono">
+          © 2026 UpSkill Tech Institute · Fully online · 4 courses · 1
+          leaderboard
+        </span>
       </div>
     </footer>
-  )
+  );
 }
 
 export function SectionHead({ eyebrow, title, text }) {
@@ -67,5 +77,5 @@ export function SectionHead({ eyebrow, title, text }) {
       <h2>{title}</h2>
       <p>{text}</p>
     </Reveal>
-  )
+  );
 }
