@@ -15,7 +15,7 @@ export default function Home() {
           </div>
           <h1>Learn a skill live.<br />Get <span className="accent">paid to win</span> every week.</h1>
           <p className="lede">
-            Four in-demand tracks — Ethical Hacking, AI & Automation, Digital Marketing, AI-Powered web development & Vibe Coding.
+            Four in-demand tracks — Mobile Video Editing, AI & Automation, Digital Marketing, AI-Powered web development & Vibe Coding.
             Top your class on Sunday and take home ₦25,000 in cash. Finish 1st and win ₦500,000.
             Try the first week free before you spend a naira.
           </p>

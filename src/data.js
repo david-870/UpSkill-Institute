@@ -26,9 +26,9 @@ export const RHYTHM = [
 
 export const COURSES = [
   { title: 'AI Powered Web Development & Vibe Coding', price: '₦50,000', color: '#33D6A6', desc: 'Learn how to use AI-assisted development to build and deploy modern web applications and websites with minimal coding effort while understanding the fundamentals behind what you\'re building.' },
-  { title: 'CyberSecurity & Ethical Hacking', price: '₦45,000', color: '#FF5470', desc: 'Learn how to prevent, detect, and investigate cyber attacks using real-world tools and techniques. Learn how to identify security vulnerabilities, protect organizations from hackers, and recover digital evidence after breaches. These are high-demand, high-income skills sought after by businesses, governments, and security firms worldwide.' },
-  { title: 'AI & AI Automation / CRM', price: '₦35,000', color: '#8A80FF', desc: 'AI & AI Automation/CRM helps you use AI to automate daily tasks, save time, and help businesses work faster. Learn how to set up smart workflows, manage customers, and improve sales with AI and CRM tools. It is a practical, high-income skill that companies are actively looking for' },
-  { title: 'Digital Marketing & Social Media', price: '₦30,000', color: '#FFB627', desc: 'Digital & Content Marketing teaches you how to grow businesses online using social media, content, and paid ads. Learn how to attract customers, increase sales, and build strong brands. It is a valuable skill for freelancers, business owners, and anyone looking to earn online.' }
+  { title: 'Mobile Video Editing', price: '₦35,000', color: '#FF5470', desc: 'Learn how to edit videos on your mobile device like a pro. From basic cuts to advanced effects, you\'ll master the tools needed to create engaging content for social media and beyond.' },
+  { title: 'AI & AI Automation / CRM', price: '₦40,000', color: '#8A80FF', desc: 'AI & AI Automation/CRM helps you use AI to automate daily tasks, save time, and help businesses work faster. Learn how to set up smart workflows, manage customers, and improve sales with AI and CRM tools. It is a practical, high-income skill that companies are actively looking for' },
+  { title: 'Digital Marketing & Social Media', price: '₦35,000', color: '#FFB627', desc: 'Digital & Content Marketing teaches you how to grow businesses online using social media, content, and paid ads. Learn how to attract customers, increase sales, and build strong brands. It is a valuable skill for freelancers, business owners, and anyone looking to earn online.' }
 ]
   
 
